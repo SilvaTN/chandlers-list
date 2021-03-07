@@ -8,7 +8,7 @@ import DoubleArrowIcon from '@material-ui/icons/DoubleArrow';
 
 const Header = ({canDelete, setCanDelete}) => {
     return (
-        // static makes app bar always be at the top, and prevents other content from being hidden underneath it.
+        // static makes app bar  always be at the top, and prevents other content from being hidden underneath it.
         // If you do this, give a margin of 0 to html body
         <AppBar position="static">
             <Toolbar>
